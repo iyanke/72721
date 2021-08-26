@@ -32,6 +32,10 @@ project {
     vcsRoot(HttpsGithubComIyankeManybranches1refsHeadsMaster)
 
     buildType(Build)
+
+    params {
+        param("ddd", "credentialsJSON:247d129a-d397-4cde-967e-7b60a3107d3f")
+    }
 }
 
 object Build : BuildType({
